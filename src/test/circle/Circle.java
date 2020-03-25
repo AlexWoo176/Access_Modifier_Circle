@@ -10,8 +10,9 @@ public class Circle {
     public Circle(double radius) {
         this.radius = radius;
     }
-// Làm thêm (ngoài để bài yêu cầu)
-    public Circle(String color) {
+
+    public Circle(double radius, String color) {
+        this.radius = radius;
         this.color = color;
     }
 
